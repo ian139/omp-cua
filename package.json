@@ -1,0 +1,36 @@
+{
+  "name": "omp-cua",
+  "version": "0.1.0",
+  "description": "Use Cua Driver as a low-overhead computer-use backend in Oh My Pi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfiesch/omp-cua.git"
+  },
+  "homepage": "https://github.com/wolfiesch/omp-cua#readme",
+  "bugs": "https://github.com/wolfiesch/omp-cua/issues",
+  "scripts": {
+    "test": "bun test"
+  },
+  "keywords": [
+    "oh-my-pi",
+    "omp",
+    "cua",
+    "computer-use",
+    "desktop-automation",
+    "mcp",
+    "extension"
+  ],
+  "files": [
+    "index.ts",
+    ".mcp.json",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "omp": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
